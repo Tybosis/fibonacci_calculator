@@ -10,7 +10,7 @@ Fibonacci.no_recursion_number method uses Binet's formula for the nth fibonacci.
 http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fibonacci/fibFormula.html#exact
 
 I have also included a benchmark.rb file in the lib folder, which demonstrates
-how much faster the nob-recursive method is.
+how much faster the non-recursive method is with larger numbers.
 You can see the results of the benchmark test by running this command
 from the root folder:
 ```
