@@ -1,4 +1,4 @@
-# My Portfolio
+# Fibonacci Number Calculator
 
 By Tyler Pottle.
 
