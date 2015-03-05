@@ -1,0 +1,18 @@
+# allows multiple spaces before first argument in method call
+# for better alignment in test files
+Style/SingleSpaceBeforeFirstArg:
+  Enabled: false
+
+# Ignore the double/single quote offenses
+StringLiterals:
+  Enabled: false
+
+# Increase the maximum line length to 120 characters
+Metrics/LineLength:
+  Max: 120
+  # To make it possible to copy or click on URIs in the code, we allow lines
+  # contaning a URI to be longer than Max.
+  AllowURI: true
+  URISchemes:
+    - http
+    - httpsr
