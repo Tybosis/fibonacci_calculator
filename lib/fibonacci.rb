@@ -12,8 +12,8 @@ module Fibonacci
     def no_recursion_number(n)
       positive_phi = (1 + Math.sqrt(5)) / 2
       negative_phi = (1 - Math.sqrt(5)) / 2
-      multiplier   = positive_phi**n - negative_phi**2
-      (multiplier / Math.sqrt(5)).round
+      dividend     = positive_phi**n - negative_phi**2
+      (dividend / Math.sqrt(5)).round
     end
   end
 end
