@@ -8,7 +8,7 @@ module Fibonacci
     end
 
     # Returns nth fibonacci number using following formula
-    # fib(n) = phi**n - (-phi)**-n / sqrt(5)
+    # fib(n) = (phi**n - (-phi)**-n) / sqrt(5)
     def no_recursion_number(n)
       positive_phi = (1 + Math.sqrt(5)) / 2
       negative_phi = (1 - Math.sqrt(5)) / 2
