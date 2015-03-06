@@ -7,7 +7,7 @@ By Tyler Pottle.
 This is a program that will calculate a given number in the fibonacci sequence.
 The Fibonacci.number method uses a recursive algorithm, and the
 Fibonacci.no_recursion_number method uses Binet's formula for the nth fibonacci.
-http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fibonacci/fibFormula.html#exact
+http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fibonacci/fibFormula.html#formula
 
 I have also included a benchmark.rb file in the lib folder, which demonstrates
 how much faster the non-recursive method is with larger numbers.
